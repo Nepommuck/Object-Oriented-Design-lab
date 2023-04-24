@@ -1,0 +1,138 @@
+[
+    {
+      "name": "GameEngine",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Handling gameplay"
+      ],
+      "collaborators": [
+        "Map",
+        "FightEngine"
+      ]
+    },
+    {
+      "name": "Map",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Graphical design",
+        "",
+        "Player interaction ground",
+        ""
+      ],
+      "collaborators": [
+        "Player"
+      ]
+    },
+    {
+      "name": "FightEngine",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Managing turns",
+        "Calculating damage",
+        "Determining the winner"
+      ],
+      "collaborators": [
+        "RandomModule",
+        "Player"
+      ]
+    },
+    {
+      "name": "Player",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Movement",
+        "Fighting",
+        "Casting spells",
+        "Upgrading skills (Gaining experience)"
+      ],
+      "collaborators": [
+        "Weapon",
+        "Shield",
+        "Armor",
+        "Equipment",
+        "RandomModule"
+      ]
+    },
+    {
+      "name": "Weapon",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Dealing Damage"
+      ],
+      "collaborators": [
+        ""
+      ]
+    },
+    {
+      "name": "Shield",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Blocking Damage"
+      ],
+      "collaborators": [
+        ""
+      ]
+    },
+    {
+      "name": "Armor",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Reducing Damage"
+      ],
+      "collaborators": [
+        ""
+      ]
+    },
+    {
+      "name": "Equipment",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Collecting Player Items"
+      ],
+      "collaborators": [
+        "Item"
+      ]
+    },
+    {
+      "name": "Spell",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Gives adventage to the player",
+        "Requires given mana value"
+      ],
+      "collaborators": [
+        ""
+      ]
+    },
+    {
+      "name": "RandomModule",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Generating  pseudorandom numbers"
+      ],
+      "collaborators": [
+        ""
+      ]
+    }
+  ]
+  
