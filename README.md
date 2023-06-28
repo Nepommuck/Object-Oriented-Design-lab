@@ -11,7 +11,7 @@ Object-oriented design, Computer Science AGH UST course
 - [ ] Lab 7
 
 
-## Treści zadań
+## Instructions
 - [Lab 1](./lab1/task.pdf)
 - [Lab 2](./lab2/task.pdf)
 - [Lab 3](./lab3/task.pdf)
